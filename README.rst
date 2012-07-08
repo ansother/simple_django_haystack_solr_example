@@ -13,11 +13,13 @@ Requirements
 
 Setup was on ubuntu
 
-    Django==1.4
-    django-haystack==2.0.0-beta
-    pysolr==2.1.0-beta
+   * Django==1.4
+   * django-haystack==2.0.0-beta
+   * pysolr==2.1.0-beta
 
-Additionally you need to setup solr. I used this tutorial: http://charlesleifer.com/blog/solr-ubuntu-revisited/
+Additionally you need to setup solr . I used this tutorial: http://charlesleifer.com/blog/solr-ubuntu-revisited/
+
+I used solr 3.6 the tutorial uses 1.4.x.
 
 Installation and setup
 ---------------
