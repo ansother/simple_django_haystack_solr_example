@@ -6,12 +6,12 @@ About
 
 :date: 2012/07/07
 
-This is a simple django-haystack example that uses solr as the back end. Solr setup is not covered in this project.
+This is a simple django-haystack example that uses solr as the back end. It is based on the official django-haystack tutorial (http://django-haystack.readthedocs.org/en/latest/tutorial.html). Solr setup is not covered in this project.
 
 Requirements
 --------------
 
-Setup was on ubuntu
+Setup was on ubuntu 12.04.
 
    * Django==1.4
    * django-haystack==2.0.0-beta
@@ -19,7 +19,7 @@ Setup was on ubuntu
 
 Additionally you need to setup solr . I used this tutorial: http://charlesleifer.com/blog/solr-ubuntu-revisited/
 
-I used solr 3.6 the tutorial uses 1.4.x.
+I used solr 3.6. The tutorial uses 1.4.x.
 
 Installation and setup
 ---------------
