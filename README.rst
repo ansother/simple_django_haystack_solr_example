@@ -26,7 +26,7 @@ Installation and setup
 
 1. Download and move into the simple_django_haystack_solr_example
     
-    $ cd simple_django_haystack_solr_example/
+    ``$ cd simple_django_haystack_solr_example/``
 
 2. Install requirements from the r.txt file with pip:
 
