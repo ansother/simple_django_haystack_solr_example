@@ -30,39 +30,39 @@ Installation and setup
 
 2. Install requirements from the r.txt file with pip:
 
-    $ pip install -r r.txt
+    ``$ pip install -r r.txt``
     
 3. Setup database:
     
-    $ python manage.py sncdb
+    ``$ python manage.py sncdb``
     
 4. Run the Django development server:
     
-    $ python manage.py runserver 0.0.0.0:8000
+    ``$ python manage.py runserver 0.0.0.0:8000``
     
 5. Go to the admin panel -> notes app and create test data:
 
-    http://localhost:8000/admin
+    ``http://localhost:8000/admin``
     
 6. Copy the solr schema.xml and stopwords_en.txt to solr config folder (usually solr/solr/conf)
 
-    $ sudo cp schema.xml stopwords_en.txt /path/to/solr/configuration/directory
+    ``$ sudo cp schema.xml stopwords_en.txt /path/to/solr/configuration/directory``
     
 7. Start solr server:
     
-    $ sudo java -jar start.jar
+    ``$ sudo java -jar start.jar``
     
 8. Build solr index:
 
-    $ python manage.py rebuild_index
+    ``$ python manage.py rebuild_index``
     
 9. Run the Django development server:
 
-    $ python manage.py runserver 0.0.0.0:8000
+    ``$ python manage.py runserver 0.0.0.0:8000``
 
 10. Go to search page:
 
-    http://localhost:8000/search
+    ``http://localhost:8000/search``
 
 
 
