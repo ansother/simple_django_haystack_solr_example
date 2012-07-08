@@ -4,7 +4,7 @@ simple_django_haystack_solr_example
 About
 ----------
 
-:date: 2012/07/07
+date: 2012/07/07
 
 This is a simple django-haystack example that uses solr as the back end. It is based on the official django-haystack tutorial (http://django-haystack.readthedocs.org/en/latest/tutorial.html). Solr setup is not covered in this project.
 
